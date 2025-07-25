@@ -1,5 +1,5 @@
 import { NuqsAdapter } from 'nuqs/adapters/react'
-import { PropsWithChildren } from 'react'
+import { type PropsWithChildren } from 'react'
 
 import { ReactQueryProvider } from './react-query'
 import { ThemeProvider } from './theme'

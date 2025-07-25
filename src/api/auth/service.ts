@@ -1,7 +1,7 @@
 import { api } from '..'
 import { setAuthTokens } from 'axios-jwt'
 
-import { LoginPayload, LoginResponse } from './types'
+import { type LoginPayload, type LoginResponse } from './types'
 
 export const authService = {
   login: async (params: LoginPayload) => {

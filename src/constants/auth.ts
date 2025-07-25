@@ -1,4 +1,4 @@
-import { FileRoutesByPath } from '@tanstack/react-router'
+import { type FileRoutesByPath } from '@tanstack/react-router'
 
 export const STORAGE_KEYS = {
   USER_ID: 'starter_user_id'

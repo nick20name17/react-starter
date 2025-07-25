@@ -7,7 +7,7 @@ import { Error } from './-components/error'
 import { Header } from './-components/header'
 import { NotFound } from './-components/not-found'
 import { Toaster } from '@/components/ui/sonner'
-import { AUTH_REDIRECTS, PUBLIC_ROUTES, RouteNames } from '@/constants/auth'
+import { AUTH_REDIRECTS, PUBLIC_ROUTES, type RouteNames } from '@/constants/auth'
 import { AuthProvider } from '@/providers/auth'
 
 export const Route = createRootRoute({

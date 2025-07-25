@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { IAuthTokens, TokenRefreshRequest, applyAuthTokenInterceptor } from 'axios-jwt'
+import { type IAuthTokens, type TokenRefreshRequest, applyAuthTokenInterceptor } from 'axios-jwt'
 
 import { API_BASE_URL } from '@/constants/api'
 

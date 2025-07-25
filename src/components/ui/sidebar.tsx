@@ -1,6 +1,6 @@
 'use client'
 
-import { VariantProps, cva } from 'class-variance-authority'
+import { type VariantProps, cva } from 'class-variance-authority'
 import { PanelLeftIcon } from 'lucide-react'
 import { Slot as SlotPrimitive } from 'radix-ui'
 import * as React from 'react'

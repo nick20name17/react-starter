@@ -1,7 +1,7 @@
 import { api } from '..'
 
-import { ApiResponse } from './../types'
-import { Todo } from './types'
+import { type Todo } from './types'
+import { type ApiResponse } from '@/api/types'
 
 export const todosService = {
   get: async (params: Record<string, string | undefined | number | null> = {}) => {
